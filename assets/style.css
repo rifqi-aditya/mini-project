@@ -1,0 +1,296 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+/* Start Header Style */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.header .nav{
+    width: 100%;
+    margin: auto;
+    display : flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-size: 16px;
+    padding: 10px;
+    background-color: rgb(221, 221, 221);
+    top: 0;
+    position: fixed;
+}
+
+.header .nav .logo{
+    height: 40px;
+}
+
+.link {
+    width: 40%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.link a {
+    text-decoration: none;
+    color: black;
+}
+.link a:hover {
+    text-decoration: none;
+    color: blue;
+}
+
+
+
+.contact-button{
+    padding: 8px 16px;
+    background-color: rgba(100,65,228,255);
+    color: white;
+}
+
+.contact-button:hover{
+ 
+    background-color: red;
+    color: black;
+}
+/* End Header Style */
+
+/* Start Index Style */
+
+.main{
+    width: 80%;
+    margin: auto;
+    margin-top: 100px;
+    background-image: url(background.png);
+}
+
+.main .hero {
+    height: 500px;
+
+    display: flex;
+    overflow: hidden;
+}
+
+.main .hero .kiri {
+    width: 50%;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.main .hero .kiri p {
+    margin-bottom: 40px;
+    font-size: 30px;
+    
+}
+.main .hero .kiri h1{
+    font-size: 60px;
+    margin-bottom: 20px;
+}
+
+.main .hero .kanan{
+    width: 50%;
+    background-image: url("coretan.png");
+    display: flex;
+    justify-content: center;
+}
+
+/* .main .hero .button-wrapper{
+    display: flex;
+} */
+
+.main .hero .button-left {
+    padding: 10px;
+    background-color: rgba(100,65,228,255);
+    text-decoration: none;
+    color: white;
+    border-style: solid;
+    border-color: rgba(100,65,228,255);
+    border-width: 1px;
+}
+
+.main .hero .button-right {
+    padding: 10px;
+    background-color: rgb(255, 255, 255);
+    text-decoration: none;
+    color: rgba(100,65,228,255);
+    border-style: solid;
+    border-color: rgba(100,65,228,255);
+    border-width: 1px;
+}
+
+
+
+
+
+/* End Index Sytle */
+
+/* Start About Style */
+
+
+.about {
+    width: 80%;
+    margin: auto;
+    margin-top: 100px;
+}
+
+.about .title h1{
+    text-align: center;
+    font-size: 40px;
+    padding: 10px;
+}
+.about .slideshow {
+    display: flex;
+}
+
+.about .slideshow img {
+    display: flex;
+    overflow: hidden;
+}
+
+.about .biography {
+    display: flex;
+    overflow: hidden;
+}
+
+.about .biography{
+    height: 100%;
+    width: 100%;
+    text-align: justify;
+    
+}
+
+.about .biography h1{
+    font-size: 30px;
+}
+.about .biography p{
+    font-size: 16px;
+}
+
+.about .biography .button-wrapper{
+    margin-top: 50px;
+    display: flex;
+}
+
+.about .biography .button-left {
+    padding: 10px;
+    background-color: rgba(100,65,228,255);
+    text-decoration: none;
+    color: white;
+    border-style: solid;
+    border-color: rgba(100,65,228,255);
+    border-width: 1px;
+}
+
+.about .biography .button-right {
+    padding: 10px;
+    background-color: rgb(255, 255, 255);
+    text-decoration: none;
+    color: rgba(100,65,228,255);
+    border-style: solid;
+    border-color: rgba(100,65,228,255);
+    border-width: 1px;
+}
+
+/* End About Style */
+
+/* Start My Skill Style */
+
+
+.myskill {
+    width: 80%;
+    margin: auto;
+    margin-top: 100px;
+}
+
+.myskill .title h1{
+    text-align: center;
+    font-size: 40px;
+    padding: 10px;
+}
+.myskill .gallery {
+    display: flex;
+    justify-content: space-between;
+}
+
+.myskill .gallery img {
+    display: flex;
+    overflow: hidden;
+    margin : 5px;
+    border: 2px solid;
+}
+
+.myskill .skill-description-left {
+    display: flex;
+    overflow: hidden;
+    text-align: justify;
+    margin-top: 100px;
+    height: auto;
+}
+
+.myskill .skill-description-left .description{
+    width: 50%;
+    padding: 10px;
+    margin: 5px
+}
+
+.myskill .skill-description-left .description h1{
+    font-size: 30px;
+}
+
+.myskill .skill-description-left .description p{
+    font-size: 16px;
+    padding: 5px;
+}
+
+.myskill .skill-description-left .image{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    margin: 5px
+}
+
+
+
+/* Skill Description On Right And Image on Left */
+
+.myskill .skill-description-right{
+    display: flex;
+    overflow: hidden;
+    text-align: justify;
+    margin-top: 100px;
+    height: auto;
+}
+
+.myskill .skill-description-right .image{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    margin: 5px
+}
+
+.myskill .skill-description-right .description{
+    width: 50%;
+    padding: 10px;
+    margin: 5px
+}
+
+.myskill .skill-description-right .description h1{
+    font-size: 30px;
+}
+.myskill .skill-description-right .description p{
+    font-size: 16px;
+    padding: 5px;
+}
+
+/* End My Skill Style */
+
+
+
+
+
+
+
+
